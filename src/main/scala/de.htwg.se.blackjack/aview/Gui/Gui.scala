@@ -5,7 +5,6 @@ import de.htwg.se.blackjack.model.cardComponent.cardBaseImpl.CardFactory
 import de.htwg.se.blackjack.model.playerComponent.playerBaseImpl.Player
 import de.htwg.se.blackjack.model.statusComponent.statusBaseImpl.StatusStrategy
 import javafx.event.ActionEvent
-import scalafx.scene.control.Button
 import scalafx.Includes.handle
 import scalafx.application.JFXApp
 import scalafx.application.JFXApp.PrimaryStage
@@ -13,13 +12,11 @@ import scalafx.geometry.Insets
 import scalafx.scene.Scene
 import scalafx.scene.control.Alert.AlertType
 import scalafx.scene.control._
-import scalafx.scene.paint.Color._
 import scalafx.scene.image.{Image, ImageView}
 import scalafx.scene.layout.{StackPane, VBox}
 import scalafx.scene.paint.Color.Black
 
 import scala.collection.mutable.Stack
-
 
 object Gui extends JFXApp {
   val status = new StatusStrategy
